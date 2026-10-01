@@ -1,0 +1,8 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/NetForge.Api/NetForge.Api.csproj" />
+    <Project Path="src/NetForge.Core/NetForge.Core.csproj" />
+    <Project Path="src/NetForge.Engine/NetForge.Engine.csproj" />
+    <Project Path="src/NetForge.Infrastructure/NetForge.Infrastructure.csproj" />
+  </Folder>
+</Solution>
