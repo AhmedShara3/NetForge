@@ -12,7 +12,7 @@ namespace NetForge.Core.Entities
         // UserId here !!!!
         public string Name { get; set; }
         public SiteType SiteType { get; set; }
-        public NetWorkSize NetWorkSize { get; set; }
+        public NetworkSize NetworkSize { get; set; }
         public DateTime CreatedAt { get; set; }
         public DateTime? UpdatedAt { get; set; }
 

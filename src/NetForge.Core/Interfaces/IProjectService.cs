@@ -9,7 +9,7 @@ namespace NetForge.Core.Interfaces
     {
         Task<List<ProjectResponse>> GetAllAsync();
         Task<ProjectResponse?> GetByIdAsync(int id);
-        Task<ProjectResponse> CreateAsync(CreateProjecRequest request);
+        Task<ProjectResponse> CreateAsync(CreateProjectRequest request);
         Task<ProjectResponse?> UpdateAsync(int id, UpdateProjectRequest request);
         Task<bool> DeleteAsync(int id);
     }
