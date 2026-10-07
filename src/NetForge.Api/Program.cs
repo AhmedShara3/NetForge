@@ -14,6 +14,7 @@ builder.Services.AddDbContext<NetForgeDbContext>(options =>
 // Register our application services (interface → implementation)
 // AddScoped = one instance per HTTP request (correct lifetime for DbContext-dependent services)
 builder.Services.AddScoped<IProjectService, ProjectService>();
+builder.Services.AddScoped<INetworkRequirementService, NetworkRequirementService>();
 
 // Register controllers and Swagger
 builder.Services.AddControllers();

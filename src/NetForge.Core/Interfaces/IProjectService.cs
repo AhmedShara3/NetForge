@@ -5,7 +5,7 @@ using System.Text;
 
 namespace NetForge.Core.Interfaces
 {
-    public   interface IProjectService
+    public interface IProjectService
     {
         Task<List<ProjectResponse>> GetAllAsync();
         Task<ProjectResponse?> GetByIdAsync(int id);

@@ -14,6 +14,7 @@ namespace NetForge.Infrastructure.Data
             
         }
         public DbSet<Project> Projects => Set<Project>();
+        public DbSet<NetworkRequirement> NetworkRequirements => Set<NetworkRequirement>();
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using NetForge.Infrastructure.Data;
 
@@ -11,9 +12,11 @@ using NetForge.Infrastructure.Data;
 namespace NetForge.Infrastructure.Migrations
 {
     [DbContext(typeof(NetForgeDbContext))]
-    partial class NetForgeDbContextModelSnapshot : ModelSnapshot
+    [Migration("20261007180833_AddNetworkRequirements")]
+    partial class AddNetworkRequirements
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

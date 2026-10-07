@@ -26,8 +26,8 @@ namespace NetForge.Core.DTOs
     {
         public int Id { get; set; }
         public string Name { get; set; } = string.Empty;
-        public string SiteType { get; set; }
-        public string NetworkSize { get; set; }
+        public string SiteType { get; set; } = string.Empty;
+        public string NetworkSize { get; set; } = string.Empty;
         public DateTime CreatedAt { get; set; }
         public DateTime? UpdatedAt { get; set; }
     }
